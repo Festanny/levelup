@@ -1,0 +1,512 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cce2ee;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	color: #1c1c1c;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.promo {
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.promo video {
+	width: 100%;
+}
+
+.promo-block {
+	position: absolute;
+	top: 15%;
+	width: 70%;
+/*	padding: 30px;*/
+	box-sizing: border-box;
+}
+
+.promo-block .name {
+	font-size: 70px;
+	font-weight: bold;
+	background-color: rgba(237, 242, 255, 0.8);
+	padding: 30px;
+	text-transform: uppercase;
+}
+
+.promo-main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	background-color: rgba(253, 253, 253, 0.8);
+}
+
+.promo .list {
+	font-size: 20px;
+	text-transform: uppercase;
+	max-width: 67%;
+	background-color: aliceblue;
+	box-shadow: 0px 0px 1px 0px rgb(0, 0, 0, 0.5);
+	padding: 20px;
+}
+
+.promo .list ul {
+	padding: 0;
+	margin: 0;
+}
+
+.promo .list li {
+	padding: 20px 30px;
+	list-style: none;
+}
+
+.promo .list .buy {
+	margin-top: 20px;
+}
+
+.promo .list ul li:nth-child(2n+1) {
+	background-color: #e1f1ff;
+}
+
+.promo-main .img {
+	max-width: 30%;
+}
+
+.promo-main img {
+	width: 100%;
+}
+
+.promo .list .buy,
+.structure .buy,
+.promo-p .buy,
+.form .buy {
+	display: block;
+	font-size: 30px;
+	padding: 20px 30px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+}
+
+.margins {
+	padding: 80px 0;
+}
+
+.structure-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.structure-main-mob {
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.structure-main .block {
+	width: 28%;
+}
+
+.structure-main .block:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.structure-main .block:nth-child(5) {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.structure-main .block:nth-child(2),
+.structure-main .block:nth-child(4) {
+	width: 5%;
+	max-height: 530px;
+}
+
+.structure-main .block:nth-child(4) {
+	transform: rotate(180deg);
+}
+
+.structure-main .block img {
+	width: 50%;
+	background: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+.structure-main .block div,
+.structure-main-mob .block div {
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	margin: 0 auto;
+	margin: 20px 0;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.structure-name {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.structure-main .block:nth-child(1) div:nth-child(1),
+.structure-main-mob .block div:nth-child(1) {
+	background-image: url("../image/1577371322_154005_original.jpg");
+}
+
+.structure-main .block:nth-child(1) div:nth-child(2),
+.structure-main-mob .block div:nth-child(2) {
+	background-image: url("../image/40399548182_1bdb1398.jpg");
+}
+
+.structure-main .block:nth-child(1) div:nth-child(3),
+.structure-main-mob .block div:nth-child(3) {
+	background-image: url("../image/big_5b3e6a6a86bd0.jpg");
+}
+
+.structure-main .block:nth-child(5) div:nth-child(1),
+.structure-main-mob .block div:nth-child(4) {
+	background-image: url("../image/dc21a29fa03c481caeca63a0d9ae03ba.max-1200x800.jpg");
+}
+
+.structure-main .block:nth-child(5) div:nth-child(2),
+.structure-main-mob .block div:nth-child(5) {
+	background-image: url("../image/ice-cave-baikal-lake-russia-ICEFORMS1217.jpg");
+}
+
+.structure-main .block:nth-child(5) div:nth-child(3),
+.structure-main-mob .block div:nth-child(6) {
+	background-image: url("../image/Icebreaker-Elenka-09.jpg");
+}
+
+.structure-main .block div span,
+.structure-main-mob .block div span {
+	padding: 10px 15px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.structure .buy {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+#gallery {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.photos {
+	position: relative;
+	width: 80%;
+	height: 200px;
+}
+
+.photos .rev-block {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	border-radius: 0 0 50px 50px;
+	transition: all .3s ease-in-out;
+	height: 100%;
+	top: 0;
+}
+
+.photos .rev-block .block2 {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photos .rev-block.showed {
+	opacity: 1;
+}
+
+.buttons {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.buttons .prev,
+.buttons .next {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	background: #212121;
+	color: #fff;
+	border-radius: 50%;
+	outline: none;
+	border: 0;
+	cursor: pointer;
+	margin-top: -25px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.buttons .prev {
+	left: 0px;
+}
+
+.buttons .next {
+	right: 0px;
+}
+
+.rev-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rev-block .block {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.rev-block .block span {
+	margin-top: 10px;
+}
+
+.rev-block .block img {
+	width: 25%;
+}
+
+.rev-block .block2 {
+	width: 78%;
+}
+
+.reviews {
+	background-color: #d6e8f2;
+}
+
+.promo-p .block-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.promo-p .block-main .img {
+	width: 45%;
+}
+
+.promo-p .block-main .img img {
+	width: 70%;
+}
+
+.promo-p .block-main .desc {
+	font-size: 20px;
+	width: 53%;
+}
+
+.promo-p .list {
+	margin-top: 30px;
+}
+
+.promo-p .buy {
+	width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.promo-p .list {
+	font-size: 20px;
+	background-color: aliceblue;
+	padding: 20px;
+	box-shadow: 0px 0px 1px 0px rgb(0, 0, 0, 0.5);
+}
+
+.promo-p .list ul {
+	margin: 0;
+	padding: 0;
+}
+
+.promo-p .list ul li {
+	list-style: none;
+	padding: 20px 30px;
+	background-color: aliceblue;
+}
+
+.promo-p .list ul li:nth-child(2n+1) {
+	background-color: #e1f1ff;
+}
+
+.form-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e1f1ff;
+	padding: 20px;
+}
+
+.form-block .ost img {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.form-block .ost {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+/*	box-shadow: inset 0px 0px 1px 0px rgb(0, 0, 0, 0.5);*/
+	background-color: #e1f1ff;
+}
+
+.form-block .ost .price span {
+	text-decoration: line-through;
+	animation: colorText 3s infinite ease-in-out;
+}
+
+.form-block .ost .price {
+	font-size: 35px;
+	font-weight: bold;
+	background: aliceblue;
+	padding: 20px 30px;
+	margin-top: 20px;
+	text-align: center;
+	box-shadow: inset 0px 0px 1px 0px rgb(0, 0, 0, 0.5);
+}
+
+.form-block .ost .price span {
+	position: relative;
+	top: -20px;
+	font-size: 20px;
+	font-weight: normal;
+	color: red;
+	padding-bottom: 30px;
+}
+
+.form-main {
+	background: aliceblue;
+	padding: 20px;
+}
+
+.form .structure-name {
+	background-color: #e1f1ff;
+	padding: 20px 30px 10px 30px;
+}
+
+.form .timer {
+	text-align: center;
+	padding: 10px 30px 20px 30px;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+	background-color: #e1f1ff;
+}
+
+.form-block form {
+	width: 48%;
+}
+
+.form-block form div {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-block form div {
+	margin-top: 20px;
+}
+
+.form-block form div:first-of-type {
+	margin-top: 0;
+}
+
+.form-block form div input {
+	margin-top: 10px;
+	padding: 20px 30px;
+	outline: none;
+	border: 0;
+	box-shadow: inset 0px 0px 1px 0px rgb(0, 0, 0);
+	width: 100%;
+	font-size: 18px;
+}
+
+.form-block form div label  {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.form-block form input[type="button"] {
+	width: 100%;
+	margin-top: 20px;
+	cursor: pointer;
+	outline: 0;
+	border: 0;
+/*
+	padding: 20px 30px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	font-weight: bold;
+*/
+}
+
+.form {
+	background-color: #d6e8f2;
+}
+
+#error,
+#message {
+	margin-top: 5px;
+}
+
+@keyframes colorText {
+	0% {
+		color: red;
+	}
+	50% {
+		color: #ff7d7d;
+	}
+	100% {
+		color: red;
+	}
+}

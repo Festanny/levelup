@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LevelUp</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/mobile.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<main>
+		<div class="promo">
+		<video class="video" loop="loop" autoplay="" muted="">
+			<source src="image/Abstract-26011.mp4" type="video/mp4" />
+		</video>
+		<div class="container">
+		<div class="promo-block">
+			<div class="name">LevelUp</div>
+			<div class="promo-main">
+				<div class="img"><img src="image/prod.png" alt=""></div>
+				<div class="list">
+					<ul>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					</ul>
+					<a href="#formPh" class="buy">Заказать</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div class="structure margins">
+			<div class="container">
+				<div class="structure-name">Состав продукта</div>
+				<div class="structure-main">
+					<div class="block">
+						<div><span>ingredients 1</span></div>
+						<div><span>ingredients 2</span></div>
+						<div><span>ingredients 3</span></div>
+					</div>
+					<img src="image/line.png" alt="" class="block">
+					<div class="block"><img src="image/prod.png" alt=""></div>
+					<img src="image/line.png" alt="" class="block">
+					<div class="block">
+						<div><span>ingredients 4</span></div>
+						<div><span>ingredients 5</span></div>
+						<div><span>ingredients 6</span></div>
+					</div>
+				</div>
+				<div class="structure-main-mob">
+					<div class="block">
+						<div><span>ingredients 1</span></div>
+						<div><span>ingredients 2</span></div>
+						<div><span>ingredients 3</span></div>
+						<div><span>ingredients 4</span></div>
+						<div><span>ingredients 5</span></div>
+						<div><span>ingredients 6</span></div>
+					</div>
+				</div>
+				<a href="#formPh" class="buy">Заказать</a>
+			</div>
+		</div>
+		<div class="reviews margins">
+			<div class="container">
+			<div class="structure-name">Отзывы</div>
+				<div id="gallery">
+					<div class="photos">
+						<div class="rev-block showed">
+							<div class="block">
+								<img src="image/people.png" alt="">
+								<span>Name1 Name1</span>
+							</div>
+							<div class="block2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat possimus harum qui. Placeat laudantium reprehenderit suscipit provident quod, fuga ad molestias repellendus aperiam quia expedita neque itaque aliquid. Similique, eos.</div>
+						</div>
+						<div class="rev-block">
+							<div class="block">
+								<img src="image/people.png" alt="">
+								<span>Name2 Name2</span>
+							</div>
+							<div class="block2">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. По всей страна вершину великий путь одна. Страну если рукопись осталось! Над знаках языкового, предложения проектах то лучше встретил пояс сих.</div>
+						</div>
+						<div class="rev-block">
+							<div class="block">
+								<img src="image/people.png" alt="">
+								<span>Name3 Name3</span>
+							</div>
+							<div class="block2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat possimus harum qui. Placeat laudantium reprehenderit suscipit provident quod, fuga ad molestias repellendus aperiam quia expedita neque itaque aliquid. Similique, eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat possimus harum qui. Placeat laudantium reprehenderit suscipit provident quod, fuga ad molestias repellendus aperiam quia expedita neque itaque aliquid. Similique, eos.</div>
+						</div>
+					</div>
+					<div class="buttons">
+						<input type="button" value="<" class="prev" onclick="prev();">
+						<input type="button" value=">" class="next" onclick="next();">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="promo-p margins">
+			<div class="promo-p-block container">
+				<div class="block-main">
+					<div class="img"><img src="image/doctor.png" alt=""></div>
+					<div class="desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Facilis hic praesentium obcaecati aut nobis animi, aperiam! Quis, nesciunt.<br>Dolorem repellat natus omnis laborum tempora ratione voluptatum, sint numquam impedit reiciendis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Facilis hic praesentium obcaecati aut nobis animi, aperiam! Quis, nesciunt.<br>Dolorem repellat natus omnis laborum tempora ratione voluptatum, sint numquam impedit reiciendis.</p></div>
+				</div>
+				<div class="list">
+					<ul>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					</ul>
+					<a href="#formPh" class="buy">Заказать</a>
+				</div>
+			</div>
+		</div>
+		<div class="form margins" id="formPh">
+			<div class="form-main container">
+				<div class="structure-name">LevelUp</div>
+				<div class="timer"><span id="minutes"></span>:<span id="seconds">00</span></div>
+				<div class="form-block">
+					<form action="">
+						<div>
+							<label for="name">Ваше имя</label>
+							<input type="text" id="name" placeholder="Ваше имя" name="name">
+						</div>
+						<div>
+							<label for="phone">Ваш номер телефона</label>
+							<input type="text" id="phone" placeholder="89998887766" name="phone">
+						</div>
+						<input type="button" value="Отправить" class="buy" onclick="send();">
+						<div id="error"></div>
+						<div id="message"></div>
+					</form>
+					<div class="ost">
+						<img src="image/prod.png" alt="">
+						<div class="price">499р.<span>1000р.</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
